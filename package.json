@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Terminal weather app",
   "main": "app.js",
+  "bin": {
+    "weather": "app.js"
+  },
   "scripts": {
     "dev": "nodemon app.js"
   },
@@ -12,6 +15,10 @@
   "type": "module",
   "dependencies": {
     "axios": "^0.24.0",
+    "cli-color": "^2.0.1",
+    "dedent-js": "^1.0.1"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }
