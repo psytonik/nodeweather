@@ -7,7 +7,7 @@
     "weather": "app.js"
   },
   "scripts": {
-    "dev": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Anthony Fink",
   "homepage": "https://anthonyfink.dev",
@@ -19,8 +19,5 @@
     "dedent-js": "^1.0.1",
     "ip-fetch": "^1.0.9",
     "public-ip": "^5.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
