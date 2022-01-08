@@ -1,5 +1,5 @@
 {
-  "name": "af-node-weather-cli",
+  "name": "af-node-weather",
   "version": "1.0.0",
   "description": "Terminal weather app",
   "main": "app.js",
