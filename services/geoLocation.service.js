@@ -1,0 +1,1 @@
+import publicIp from 'public-ip';import ipFetch from 'ip-fetch';import {printSuccess} from './log.service.js';const getCityByIp = async () => {    const myIp = await publicIp.v4();    const {country,city,timezone,isp} = await ipFetch.getLocationNpm(myIp);    printSuccess(`${country} - ${city} - ${timezone} - isp: ${isp}`)    return city;}export {getCityByIp}

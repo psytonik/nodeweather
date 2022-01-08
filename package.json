@@ -16,7 +16,9 @@
   "dependencies": {
     "axios": "^0.24.0",
     "cli-color": "^2.0.1",
-    "dedent-js": "^1.0.1"
+    "dedent-js": "^1.0.1",
+    "ip-fetch": "^1.0.9",
+    "public-ip": "^5.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
